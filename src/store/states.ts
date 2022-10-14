@@ -8,7 +8,7 @@ interface Store {
 const useStore = create<Store>((set) => ({
   currentRoute: "/",
   setCurrentRoute: (routeName: string) =>
-    set((state) => ({ currentRoute: state.currentRoute })),
+    set((state) => ({ currentRoute: routeName })),
 }));
 
 export default useStore;
