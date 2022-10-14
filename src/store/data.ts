@@ -1,4 +1,4 @@
-import { logo } from "../public";
+import { logo } from "../../public";
 
 export const headerData = {
   logo: logo,
