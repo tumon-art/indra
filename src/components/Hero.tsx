@@ -1,5 +1,5 @@
 import Image from "next/future/image";
-import { hero1, hero2, hero3, hero4 } from "../../public";
+import { hero4 } from "../../public";
 
 export default function Hero() {
   return (

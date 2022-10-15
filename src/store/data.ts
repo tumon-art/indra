@@ -1,4 +1,4 @@
-import { logo } from "../../public";
+import { home, logo, settings, tree } from "../../public";
 
 export const headerData = {
   logo: logo,
@@ -11,3 +11,18 @@ export const headerData = {
     { route: "safety", name: "Safety" },
   ],
 };
+
+export const serviceCardData = [
+  {
+    svg: settings,
+    text: "Lorem ipsum dolor sit amet",
+  },
+  {
+    svg: tree,
+    text: "Lorem ipsum dolor sit amet",
+  },
+  {
+    svg: home,
+    text: "Lorem ipsum dolor sit amet",
+  },
+];
