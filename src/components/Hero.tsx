@@ -1,5 +1,5 @@
 import Image from "next/future/image";
-import { hero4 } from "../../public";
+import { hero1, hero4 } from "../../public";
 
 export default function Hero() {
   return (
@@ -7,8 +7,8 @@ export default function Hero() {
       <div>
         <Image
           quality={100}
-          src={hero4}
-          className=" w-full object-cover h-[500px] brightness-70"
+          src={hero1}
+          className=" scale-x-[-1] w-full object-cover h-[500px] brightness-70"
           alt="hero"
         />
       </div>
