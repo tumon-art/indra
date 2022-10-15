@@ -13,8 +13,8 @@ export default function Hero() {
         />
       </div>
       <div
-        className=" absolute bottom-0 font-lato bg-blured
-       text-textWhite text-center w-full text-4xl font-extrabold py-5"
+        className=" absolute bottom-0 bg-blured
+       text-textWhite  w-full text-center font-lato text-4xl font-extrabold py-5"
       >
         <span className="">SUNDEVIL Underground Construction</span>
       </div>
