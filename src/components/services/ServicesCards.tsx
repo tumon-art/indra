@@ -1,4 +1,4 @@
-import { shapeSVG } from "../../store/data";
+import Shape1 from "../svg/Shape1";
 
 interface Props {
   svg: SVGAElement | any;
@@ -17,9 +17,7 @@ flex-col justify-top pt-2 items-center "
           <p className=" text-center font-semibold text-sm text-textWhite">
             {text}
           </p>
-          <span className="  text-textWhite absolute bottom-[-2px] right-[-2px]">
-            {shapeSVG.shape1}
-          </span>
+          <Shape1 styles="text-textWhite absolute bottom-[-2px] right-[-2px]" />
         </div>
       ) : (
         <div
@@ -30,9 +28,7 @@ flex-col justify-top pt-2 items-center "
           <p className=" text-center font-semibold text-sm text-primary">
             {text}
           </p>
-          <span className=" text-primary absolute bottom-[-2px] right-[-2px]">
-            {shapeSVG.shape1}
-          </span>
+          <Shape1 styles="text-primary absolute bottom-[-2px] right-[-2px]" />
         </div>
       )}
     </>

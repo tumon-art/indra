@@ -55,16 +55,3 @@ export const serviceCardData = [
     text: "Lorem ipsum dolor sit amet",
   },
 ];
-
-export const shapeSVG = {
-  shape1: (
-    <svg viewBox="0 0 254 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M0 0L254 15V53H0V0Z"
-        fill="currentColor"
-      />
-    </svg>
-  ),
-};
