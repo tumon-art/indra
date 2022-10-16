@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import AboutSection from "../components/aboutSection/AboutSection";
+import AboutSections from "../components/aboutSection/AboutSections";
 import Hero from "../components/Hero";
 import ServicesContainer from "../components/services/ServicesContainer";
 
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <Hero />
       <ServicesContainer />
       <section className=" px-5 sm:px-32">
-        <AboutSection />
+        <AboutSections />
       </section>
     </div>
   );

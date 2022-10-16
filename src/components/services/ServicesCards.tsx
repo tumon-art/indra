@@ -11,10 +11,10 @@ export default function ServicesCards({ svg, text, i }: Props) {
       {i == 2 ? (
         <div
           className=" relative h-20 sm:h-32 overflow-hidden w-20 sm:w-32 ring-primar bg-primary flex
-flex-col justify-top pt-2 items-center "
+          flex-col justify-top pt-2 items-center "
         >
           <div className=" text-textWhite w-6 sm:w-12 h-6 sm:h-12">{svg}</div>
-          <p className=" text-center font-semibold text-[0.6rem] text-textWhite">
+          <p className=" text-center font-semibold text-[0.6rem] sm:text-sm text-textWhite">
             {text}
           </p>
           <Shape1 styles="text-textWhite absolute bottom-[-2px] right-[-2px]" />
@@ -22,10 +22,10 @@ flex-col justify-top pt-2 items-center "
       ) : (
         <div
           className=" relative h-20 sm:h-32 overflow-hidden w-20 sm:w-32 ring-2 ring-primary bg-dim flex
-  flex-col justify-top pt-2 items-center "
+          flex-col justify-top pt-2 items-center "
         >
           <div className=" text-primary w-6 sm:w-12 h-6 sm:h-12">{svg}</div>
-          <p className=" text-center font-semibold text-[0.6rem] text-primary">
+          <p className=" text-center font-semibold text-[0.6rem] sm:text-sm text-primary">
             {text}
           </p>
           <Shape1 styles="text-primary absolute bottom-[-2px] right-[-2px]" />
