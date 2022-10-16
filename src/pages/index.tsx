@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
       <Hero />
       <ServicesContainer />
-      <section className=" px-20">
+      <section className=" px-32">
         <AboutSection />
       </section>
     </div>

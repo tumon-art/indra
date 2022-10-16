@@ -13,15 +13,14 @@ export default function Navbar() {
   const { currentRoute, setCurrentRoute } = useStore();
 
   return (
-    <div className=" relative flex justify-between items-center px-10 h-24">
+    <div className=" relative flex justify-between items-center px-4 sm:px-10 h-16 sm:h-24">
       <Image
         src={logo}
-        height="60"
         alt="logo"
-        className=" object-cover cursor-pointer"
+        className=" h-10 sm:h-14 w-auto object-contain cursor-pointer"
       />
 
-      <ol className="flex gap-14">
+      <ol className=" hidden sm:flex gap-14">
         {headerData.link.map((links: Typemaps, i: any) => (
           <li
             key={i}
