@@ -3,7 +3,7 @@ import { hero1 } from "../../public";
 
 export default function Hero() {
   return (
-    <div className=" relative ring-2">
+    <div className=" relative">
       <div>
         <Image
           src={hero1}

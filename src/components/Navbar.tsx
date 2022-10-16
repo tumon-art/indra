@@ -13,7 +13,10 @@ export default function Navbar() {
   const { currentRoute, setCurrentRoute } = useStore();
 
   return (
-    <div className=" relative flex justify-between items-center px-4 sm:px-10 h-16 sm:h-24">
+    <div
+      className=" shadow-xl relative flex justify-between items-center 
+    px-4 sm:px-10 h-16 sm:h-24"
+    >
       <Image
         src={logo}
         alt="logo"
@@ -29,7 +32,10 @@ export default function Navbar() {
             }`}
           >
             {currentRoute == links.route && (
-              <div className=" absolute bg-primary top-[-40px] h-28 w-20 z-[-1]">
+              <div
+                className=" absolute bg-primary top-[-40px] 
+              h-28 w-20 z-[-1]"
+              >
                 Hei
               </div>
             )}

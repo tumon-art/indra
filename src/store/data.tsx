@@ -64,4 +64,12 @@ export const aboutSectionData = {
     eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
+  desc: [
+    `The absolutely reliable , friendly 
+    services`,
+    `We try to provide services fastest 
+    as possible`,
+    `The success comes through passion 
+    and patience`,
+  ],
 };
