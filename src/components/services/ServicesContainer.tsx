@@ -25,7 +25,7 @@ export default function ServicesContainer() {
         />
 
         <div
-          className=" absolute bg-primary bottom-[-20px]
+          className=" absolute shadow-2xl bg-primary bottom-[-20px]
            sm:bottom-[-40px] text-textWhite
          text-center font-lato text-sm sm:text-4xl font-extrabold
           px-10 sm:px-20 py-4 sm:py-8 rotate-[-1.24deg]"
