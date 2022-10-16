@@ -60,8 +60,8 @@ export const shapeSVG = {
   shape1: (
     <svg viewBox="0 0 254 53" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M0 0L254 15V53H0V0Z"
         fill="currentColor"
       />
