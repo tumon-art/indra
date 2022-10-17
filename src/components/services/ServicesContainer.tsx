@@ -6,7 +6,7 @@ import ServicesCards from "./ServicesCards";
 
 export default function ServicesContainer() {
   return (
-    <section className=" my-24 sm:my-52">
+    <section className=" mt-24 sm:mt-52">
       <div className=" relative flex justify-center">
         <motion.div
           initial={{ translateX: 425 }}

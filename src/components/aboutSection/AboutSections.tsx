@@ -1,14 +1,14 @@
 // About Section in Home Page
 import { aboutSectionData } from "../../store/data";
-import AboutSVG1 from "../svg/aboutSection/AboutSVG1";
-import AboutSVG2 from "../svg/aboutSection/AboutSVG2";
-import AboutSVG3 from "../svg/aboutSection/AboutSVG3";
-import Shape1 from "../svg/Shape1";
+import AboutSVG1 from "../../store/svg/aboutSection/AboutSVG1";
+import AboutSVG2 from "../../store/svg/aboutSection/AboutSVG2";
+import AboutSVG3 from "../../store/svg/aboutSection/AboutSVG3";
+import Shape1 from "../../store/svg/Shape1";
 import AboutSection1 from "./AboutSection1";
 
 export default function AboutSections() {
   return (
-    <div>
+    <div className=" mt-24 sm:mt-42">
       <div className=" flex gap-5 sm:gap-28 justify-center">
         {["0", "1", "2"].map((each, i) => {
           return (

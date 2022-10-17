@@ -1,4 +1,4 @@
-import Shape1 from "../svg/Shape1";
+import Shape1 from "../../store/svg/Shape1";
 
 interface Props {
   svg: SVGAElement | any;

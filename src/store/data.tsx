@@ -73,3 +73,8 @@ export const aboutSectionData = {
     and patience`,
   ],
 };
+
+export const footerData = {
+  copyright:
+    "Copyright 2022 SUNDEVIL Services Ltd. | All Rights Reserved Powred by 2M0N ",
+};
