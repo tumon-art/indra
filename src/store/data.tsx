@@ -75,6 +75,24 @@ export const aboutSectionData = {
 };
 
 export const footerData = {
+  sect1: {
+    svg: logo,
+    title: "SUNDEVIL",
+    text: `Largest data & internet service provider in Bangladesh.
+     We value your opinion and this why we want you to give us a call today.`,
+  },
+  sect2: {
+    title: "Contact",
+    text1: "Wakil Tower, D.C Link Road",
+    text2: "info@sundevil.example.co.uk",
+    text3: "+88-09666770444",
+  },
+  sect3: {
+    title: "Services",
+    text1: "Industrial Construction",
+    text2: "Chemical Research",
+    text3: " Mechanical Engineering",
+  },
   copyright:
     "Copyright 2022 SUNDEVIL Services Ltd. | All Rights Reserved Powred by 2M0N ",
 };
