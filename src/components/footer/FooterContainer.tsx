@@ -1,5 +1,8 @@
 import Image from "next/future/image";
 import { footerData } from "../../store/data";
+import ContactSVG1 from "../../store/svg/footer/contact/ContactSVG1";
+import ContactSVG2 from "../../store/svg/footer/contact/ContactSVG2";
+import ContactSVG3 from "../../store/svg/footer/contact/ContactSVG3";
 
 export default function FooterContainer() {
   return (
@@ -22,6 +25,18 @@ export default function FooterContainer() {
         {/* === SECTION 02 ===  */}
         <section className=" ring-2">
           <h1 className=" text-xl text-primary"> {footerData.sect2.title} </h1>
+
+          <div className=" text-primary">
+            <div>
+              <ContactSVG1 styles=" w-4 h-auto" />
+            </div>
+            <div>
+              <ContactSVG2 styles=" w-4 h-auto" />
+            </div>
+            <div>
+              <ContactSVG3 styles=" w-4 h-auto" />
+            </div>
+          </div>
         </section>
         {/* === SECTION 03 ===  */}
         <section className=" ring-2">
