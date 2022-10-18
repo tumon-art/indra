@@ -9,7 +9,7 @@ export default function FooterContainer() {
     <footer className="bg-dim font-lato">
       <div className=" h-96 flex justify-evenly">
         {/* === SECTION 01 ===  */}
-        <section className=" ring-2">
+        <section className=" flex flex-col justify-center">
           <Image src={footerData.sect1.svg} alt="svg" />
           <h1
             className=" text-4xl my-6 font-extrabold
@@ -23,23 +23,23 @@ export default function FooterContainer() {
           </p>
         </section>
         {/* === SECTION 02 ===  */}
-        <section className=" flex flex-col items-center justify-center gap-6 ring-2">
+        <section className=" flex flex-col items-center justify-center gap-6">
           <h1 className=" text-xl text-primary"> {footerData.sect2.title} </h1>
 
           <div className="flex-col flex gap-4 text-primary">
-            <div className=" flex gap-2">
+            <div className=" flex gap-4">
               <ContactSVG1 styles=" w-5 h-auto" />
               <p className=" text-textDark text-sm font-normal">
                 {footerData.sect2.text1}
               </p>
             </div>
-            <div className=" flex gap-2">
+            <div className=" flex gap-4">
               <ContactSVG2 styles=" w-5 h-auto" />
               <p className=" text-textDark text-sm font-normal">
                 {footerData.sect2.text2}
               </p>
             </div>
-            <div className=" flex gap-2">
+            <div className=" flex gap-4">
               <ContactSVG3 styles=" w-5 h-auto" />
               <p className=" text-textDark text-sm font-normal">
                 {footerData.sect2.text3}
@@ -48,23 +48,23 @@ export default function FooterContainer() {
           </div>
         </section>
         {/* === SECTION 03 ===  */}
-        <section className="flex flex-col items-center justify-center gap-6 ring-2">
+        <section className="flex flex-col items-center justify-center gap-6">
           <h1 className=" text-xl text-primary"> {footerData.sect3.title} </h1>
 
           <div className=" flex-col flex gap-4 text-primary">
-            <div className=" flex items-center gap-2">
+            <div className=" flex items-center gap-4">
               <div className=" w-2 h-2 bg-primary"></div>
-              <p> {footerData.sect3.text1} </p>
+              <p className=" text-textDark text-sm">{footerData.sect3.text1}</p>
             </div>
 
-            <div className=" flex gap-2">
+            <div className=" flex items-center gap-4">
               <div className=" w-2 h-2 bg-primary"></div>
-              <p> {footerData.sect3.text2} </p>
+              <p className=" text-textDark text-sm">{footerData.sect3.text2}</p>
             </div>
 
-            <div className=" flex gap-2">
+            <div className=" flex items-center gap-4">
               <div className=" w-2 h-2 bg-primary"></div>
-              <p> {footerData.sect3.text3} </p>
+              <p className=" text-textDark text-sm">{footerData.sect3.text3}</p>
             </div>
           </div>
         </section>
