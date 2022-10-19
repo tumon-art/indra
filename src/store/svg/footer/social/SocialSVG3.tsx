@@ -1,4 +1,12 @@
-export default function SocialSVG3({ styles }: { styles: string }) {
+import { ReactNode } from "react";
+
+export default function SocialSVG3({
+  styles,
+  children,
+}: {
+  styles: string;
+  children: ReactNode;
+}) {
   return (
     <svg
       className={styles}
@@ -6,6 +14,7 @@ export default function SocialSVG3({ styles }: { styles: string }) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
+      {children}
       <path
         d="M29.3333 7.3335H14.6666C10.6165 7.3335 7.33325 10.6167 7.33325 14.6668V29.3335C7.33325 33.3836 10.6165 36.6668 14.6666 36.6668H29.3333C33.3833 36.6668 36.6666 33.3836 36.6666 29.3335V14.6668C36.6666 10.6167 33.3833 7.3335 29.3333 7.3335Z"
         stroke="currentColor"

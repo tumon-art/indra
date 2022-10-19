@@ -1,4 +1,5 @@
 import Image from "next/future/image";
+import a from "next/link";
 import { footerData } from "../../store/data";
 import ContactSVG1 from "../../store/svg/footer/contact/ContactSVG1";
 import ContactSVG2 from "../../store/svg/footer/contact/ContactSVG2";
@@ -11,7 +12,7 @@ import SocialSVG4 from "../../store/svg/footer/social/SocialSVG4";
 export default function FooterContainer() {
   return (
     <footer className=" relative grid items-center bg-dim font-lato">
-      <div className=" h-96 flex justify-evenly">
+      <div className=" md:flex justify-evenly">
         {/* === SECTION 01 ===  */}
         <section className=" flex flex-col justify-center">
           <Image src={footerData.sect1.svg} alt="svg" />
@@ -74,17 +75,34 @@ export default function FooterContainer() {
         </section>
       </div>
       {/* === SOCIAL LINKS 04 ===  */}
-      <section className=" absolute right-0 bg-lime-300">
-        <div className=" bg-primary flex gap-2 px-2 py-4 flex-col items-center justify-center">
-          <SocialSVG1 styles=" text-white w-5 h-auto" />
-          <SocialSVG2 styles=" text-white w-5 h-auto" />
-          <SocialSVG3 styles=" text-white w-5 h-auto" />
-          <SocialSVG4 styles=" text-white w-5 h-auto" />
+      <section className=" lg:absolute lg:right-0 bg-lime-300">
+        <div className=" bg-primary flex gap-5 px-2 py-5 lg:flex-col items-center justify-center">
+          <a href="/">
+            <SocialSVG1 styles=" cursor-pointer text-white w-5 h-auto">
+              <title> {footerData.social.one.title} </title>
+            </SocialSVG1>
+          </a>
+          <a href={footerData.social.two.href}>
+            <SocialSVG2 styles=" cursor-pointer text-white w-5 h-auto">
+              <title> {footerData.social.two.title} </title>
+            </SocialSVG2>
+          </a>
+          <a href={footerData.social.three.href}>
+            <SocialSVG3 styles=" cursor-pointer text-white w-5 h-auto">
+              <title> {footerData.social.three.title} </title>
+            </SocialSVG3>
+          </a>
+          <a href={footerData.social.four.href}>
+            <SocialSVG4 styles=" cursor-pointer text-white w-5 h-auto">
+              <title> {footerData.social.four.title} </title>
+            </SocialSVG4>
+          </a>
         </div>
       </section>
+
       <div
         className=" w-full text-center bg-primary
-         text-textWhite py-2 font-bold text-sm"
+         text-textWhite py-2 font-bold text-xs"
       >
         {footerData.copyright}
       </div>
