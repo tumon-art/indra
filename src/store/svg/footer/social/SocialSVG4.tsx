@@ -1,0 +1,46 @@
+export default function SocialSVG3({ styles }: { styles: string }) {
+  return (
+    <svg
+      className={styles}
+      viewBox="0 0 44 44"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M32.9999 7.3335H10.9999C8.97487 7.3335 7.33325 8.97512 7.33325 11.0002V33.0002C7.33325 35.0252 8.97487 36.6668 10.9999 36.6668H32.9999C35.025 36.6668 36.6666 35.0252 36.6666 33.0002V11.0002C36.6666 8.97512 35.025 7.3335 32.9999 7.3335Z"
+        stroke="currentColor"
+        strokeWidth="2.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14.6667 20.1665V29.3332"
+        stroke="currentColor"
+        strokeWidth="2.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14.6667 14.6665V14.6848"
+        stroke="currentColor"
+        strokeWidth="2.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M22 29.3332V20.1665"
+        stroke="currentColor"
+        strokeWidth="2.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M29.3333 29.3332V23.8332C29.3333 22.8607 28.947 21.9281 28.2594 21.2404C27.5718 20.5528 26.6391 20.1665 25.6667 20.1665C24.6942 20.1665 23.7616 20.5528 23.0739 21.2404C22.3863 21.9281 22 22.8607 22 23.8332"
+        stroke="currentColor"
+        strokeWidth="2.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
