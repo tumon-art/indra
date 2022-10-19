@@ -1,4 +1,4 @@
-export default function SocialSVG3({ styles }: { styles: string }) {
+export default function SocialSVG4({ styles }: { styles: string }) {
   return (
     <svg
       className={styles}

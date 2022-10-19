@@ -3,10 +3,14 @@ import { footerData } from "../../store/data";
 import ContactSVG1 from "../../store/svg/footer/contact/ContactSVG1";
 import ContactSVG2 from "../../store/svg/footer/contact/ContactSVG2";
 import ContactSVG3 from "../../store/svg/footer/contact/ContactSVG3";
+import SocialSVG1 from "../../store/svg/footer/social/SocialSVG1";
+import SocialSVG2 from "../../store/svg/footer/social/SocialSVG2";
+import SocialSVG3 from "../../store/svg/footer/social/SocialSVG3";
+import SocialSVG4 from "../../store/svg/footer/social/SocialSVG4";
 
 export default function FooterContainer() {
   return (
-    <footer className="bg-dim font-lato">
+    <footer className=" relative grid items-center bg-dim font-lato">
       <div className=" h-96 flex justify-evenly">
         {/* === SECTION 01 ===  */}
         <section className=" flex flex-col justify-center">
@@ -69,6 +73,15 @@ export default function FooterContainer() {
           </div>
         </section>
       </div>
+      {/* === SOCIAL LINKS 04 ===  */}
+      <section className=" absolute right-0 bg-lime-300">
+        <div className=" bg-primary flex gap-2 px-2 py-4 flex-col items-center justify-center">
+          <SocialSVG1 styles=" text-white w-5 h-auto" />
+          <SocialSVG2 styles=" text-white w-5 h-auto" />
+          <SocialSVG3 styles=" text-white w-5 h-auto" />
+          <SocialSVG4 styles=" text-white w-5 h-auto" />
+        </div>
+      </section>
       <div
         className=" w-full text-center bg-primary
          text-textWhite py-2 font-bold text-sm"

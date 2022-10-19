@@ -93,6 +93,12 @@ export const footerData = {
     text2: "Chemical Research",
     text3: " Mechanical Engineering",
   },
+  social: {
+    one: { title: "Facebook", href: "" },
+    two: { title: "Twitter", href: "" },
+    three: { title: "Instagram", href: "" },
+    four: { title: "Linkedin", href: "" },
+  },
   copyright:
     "Copyright 2022 SUNDEVIL Services Ltd. | All Rights Reserved Powred by 2M0N ",
 };
