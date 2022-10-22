@@ -1,4 +1,11 @@
-import { logo, project1, project2, project3 } from "../../public";
+import {
+  contact1,
+  contact2,
+  logo,
+  project1,
+  project2,
+  project3,
+} from "../../public";
 
 export const headerData = {
   logo: logo,
@@ -74,6 +81,41 @@ export const aboutSectionData = {
   ],
 };
 
+export const projectData = {
+  title: headerData.link[4].name,
+  item1: {
+    img: project1,
+    btnText: "Deatils",
+  },
+  item2: {
+    img: project2,
+    btnText: "Deatils",
+  },
+  item3: {
+    img: project3,
+    btnText: "Deatils",
+  },
+};
+
+export const contactData = {
+  sec1: {
+    title: "Let’s Build your future today",
+    title1: "Contact",
+    img: contact1,
+    smallText: [
+      "Best project planning",
+      "we guarente success",
+      "30+ Years Experience",
+    ],
+    phone: "92 666 888 0000",
+  },
+
+  sect2: {
+    title: "Founded in 1987",
+    img: contact2,
+  },
+};
+
 export const footerData = {
   sect1: {
     svg: logo,
@@ -101,20 +143,4 @@ export const footerData = {
   },
   copyright:
     "Copyright 2022 SUNDEVIL Services Ltd. | All Rights Reserved Powred by 2M0N ",
-};
-
-export const projectData = {
-  title: headerData.link[4].name,
-  item1: {
-    img: project1,
-    btnText: "Deatils",
-  },
-  item2: {
-    img: project2,
-    btnText: "Deatils",
-  },
-  item3: {
-    img: project3,
-    btnText: "Deatils",
-  },
 };
