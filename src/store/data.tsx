@@ -104,7 +104,7 @@ export const footerData = {
 };
 
 export const projectData = {
-  title: "Projects",
+  title: headerData.link[4].name,
   item1: {
     img: project1,
     btnText: "Deatils",
