@@ -1,4 +1,4 @@
-import { logo } from "../../public";
+import { logo, project1, project2, project3 } from "../../public";
 
 export const headerData = {
   logo: logo,
@@ -101,4 +101,20 @@ export const footerData = {
   },
   copyright:
     "Copyright 2022 SUNDEVIL Services Ltd. | All Rights Reserved Powred by 2M0N ",
+};
+
+export const projectData = {
+  title: "Projects",
+  item1: {
+    img: project1,
+    btnText: "Deatils",
+  },
+  item2: {
+    img: project2,
+    btnText: "Deatils",
+  },
+  item3: {
+    img: project3,
+    btnText: "Deatils",
+  },
 };
