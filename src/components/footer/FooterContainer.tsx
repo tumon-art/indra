@@ -1,4 +1,5 @@
 import Image from "next/future/image";
+import Link from "next/link";
 import a from "next/link";
 import { footerData } from "../../store/data";
 import ContactSVG1 from "../../store/svg/footer/contact/ContactSVG1";
@@ -77,26 +78,29 @@ export default function FooterContainer() {
       {/* === SOCIAL LINKS 04 ===  */}
       <section className=" lg:absolute lg:right-0 bg-lime-300">
         <div className=" bg-primary flex gap-5 px-2 py-5 lg:flex-col items-center justify-center">
-          <a href="/">
+          <Link href="/">
             <SocialSVG1 styles=" cursor-pointer text-white w-5 h-auto">
               <title> {footerData.social.one.title} </title>
             </SocialSVG1>
-          </a>
-          <a href={footerData.social.two.href}>
+          </Link>
+
+          <Link href={footerData.social.two.href}>
             <SocialSVG2 styles=" cursor-pointer text-white w-5 h-auto">
               <title> {footerData.social.two.title} </title>
             </SocialSVG2>
-          </a>
-          <a href={footerData.social.three.href}>
+          </Link>
+
+          <Link href={footerData.social.three.href}>
             <SocialSVG3 styles=" cursor-pointer text-white w-5 h-auto">
               <title> {footerData.social.three.title} </title>
             </SocialSVG3>
-          </a>
-          <a href={footerData.social.four.href}>
+          </Link>
+
+          <Link href={footerData.social.four.href}>
             <SocialSVG4 styles=" cursor-pointer text-white w-5 h-auto">
               <title> {footerData.social.four.title} </title>
             </SocialSVG4>
-          </a>
+          </Link>
         </div>
       </section>
 

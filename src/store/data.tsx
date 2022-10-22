@@ -100,7 +100,7 @@ export const projectData = {
 export const contactData = {
   sec1: {
     title: "Let’s Build your future today",
-    title1: "Contact",
+    title1: headerData.link[3].name,
     img: contact1,
     smallText: [
       "Best project planning",
