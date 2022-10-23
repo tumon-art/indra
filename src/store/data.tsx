@@ -112,7 +112,8 @@ export const contactData = {
   },
 
   sect2: {
-    title: "Founded in 1987",
+    title: `Founded in 
+    1987`,
     img: contact2,
   },
 };

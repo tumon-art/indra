@@ -11,8 +11,8 @@ import SocialSVG4 from "../../store/svg/footer/social/SocialSVG4";
 
 export default function FooterContainer() {
   return (
-    <footer className=" relative grid items-center bg-dim font-lato">
-      <div className=" md:flex justify-evenly">
+    <footer className="relative  mt-20 grid items-center bg-dim font-lato">
+      <div className="  pl-4 my-10 sm:pl-0 md:flex justify-evenly">
         {/* === SECTION 01 ===  */}
         <section className=" flex flex-col justify-center">
           <Image src={footerData.sect1.svg} alt="svg" />
@@ -27,9 +27,10 @@ export default function FooterContainer() {
             {footerData.sect1.text}
           </p>
         </section>
+
         {/* === SECTION 02 ===  */}
-        <section className=" flex flex-col items-center justify-center gap-6">
-          <h1 className=" text-xl text-primary"> {footerData.sect2.title} </h1>
+        <section className=" my-5 sm:my-0 flex flex-col justify-center gap-6">
+          <h1 className=" text-xl text-primary">{footerData.sect2.title}</h1>
 
           <div className="flex-col flex gap-4 text-primary">
             <div className=" flex gap-4">
@@ -53,7 +54,7 @@ export default function FooterContainer() {
           </div>
         </section>
         {/* === SECTION 03 ===  */}
-        <section className="flex flex-col items-center justify-center gap-6">
+        <section className="flex flex-col  justify-center gap-6">
           <h1 className=" text-xl text-primary"> {footerData.sect3.title} </h1>
 
           <div className=" flex-col flex gap-4 text-primary">
