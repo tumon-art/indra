@@ -2,6 +2,7 @@ import Image from "next/future/image";
 import { contact1 } from "../../public";
 import { contactData } from "../store/data";
 import Contact1 from "../store/svg/contact/Contact1";
+import SVGcontact2 from "../store/svg/contact/SVGcontact2";
 
 export default function Contact() {
   return (
@@ -33,8 +34,13 @@ export default function Contact() {
       </section>
 
       {/* === SECTION 02 === */}
-      <section className=" col-start-6 col-end-11 h-full">
+      <section className=" flex justify-center relative col-start-6 col-end-11 overflow-hidden h-full">
         <Image src={contactData.sect2.img} alt="img" className=" h-full" />
+        <SVGcontact2 styles="absolute bottom-0 min-w-full text-primary h-48" />
+        <h1 className=" text-3xl font-extrabold text-white z-40 absolute bottom-10">
+          {" "}
+          {contactData.sect2.title}{" "}
+        </h1>
       </section>
     </div>
   );
