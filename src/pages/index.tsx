@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import AboutSections from "../components/aboutSection/AboutSections";
+import Contact from "../components/Contact";
 import FooterContainer from "../components/footer/FooterContainer";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
       <section className=" px-5 sm:px-32">
         <AboutSections />
         <Projects />
+        <Contact />
       </section>
     </div>
   );
