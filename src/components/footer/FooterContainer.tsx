@@ -8,10 +8,13 @@ import SocialSVG1 from "../../store/svg/footer/social/SocialSVG1";
 import SocialSVG2 from "../../store/svg/footer/social/SocialSVG2";
 import SocialSVG3 from "../../store/svg/footer/social/SocialSVG3";
 import SocialSVG4 from "../../store/svg/footer/social/SocialSVG4";
+import Shape1 from "../../store/svg/Shape1";
 
 export default function FooterContainer() {
   return (
-    <footer className="relative  mt-20 grid items-center bg-dim font-lato">
+    <footer className="relative mt-20 grid overflow-hidden  items-center bg-dim font-lato">
+      {/* === SHAPE === */}
+      <Shape1 styles=" absolute text-primary z-[-1] scale-[-1] w-96 top-0 " />
       <div className="  pl-4 my-10 sm:pl-0 md:flex justify-evenly">
         {/* === SECTION 01 ===  */}
         <section className=" flex flex-col justify-center">

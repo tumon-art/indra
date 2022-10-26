@@ -12,12 +12,15 @@ export default function AboutSections() {
       <div className=" flex gap-5 sm:gap-28 justify-center">
         {["0", "1", "2"].map((each, i) => {
           return (
-            <Shape1 styles={`text-primary w-20 h-4 sm:w-36 sm:h-8`} key={i} />
+            <Shape1
+              styles={`text-primary w-20 h-4 sm:w-36 md:w-32 lg:h-6 `}
+              key={i}
+            />
           );
         })}
       </div>
       <div className=" rounded-xl ring-2 overflow-hidden ring-primary">
-        <div className=" sm:flex h-full">
+        <div className=" lg:flex h-full">
           {/* === SECITON 01 === */}
           <AboutSection1 />
           {/* === SECITON 02 === */}
