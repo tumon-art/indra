@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import Link from "next/link";
 import { footerData } from "../../store/data";
 import ContactSVG1 from "../../store/svg/footer/contact/ContactSVG1";
@@ -79,41 +79,33 @@ export default function FooterContainer() {
         </section>
       </div>
       {/* === SOCIAL LINKS 04 ===  */}
-      <section className=" lg:absolute lg:right-0 bg-lime-300">
+      {/* <section className=" lg:absolute lg:right-0 bg-lime-300">
         <div className=" bg-primary flex gap-5 px-2 py-5 lg:flex-col items-center justify-center">
           <Link href="/">
-            <a>
-              <SocialSVG1 styles=" cursor-pointer text-white w-5 h-auto">
-                <title> {footerData.social.one.title} </title>
-              </SocialSVG1>
-            </a>
+            <SocialSVG1 styles=" cursor-pointer text-white w-5 h-auto">
+              <title> {footerData.social.one.title} </title>
+            </SocialSVG1>
           </Link>
 
           <Link href={footerData.social.two.href}>
-            <a>
-              <SocialSVG2 styles=" cursor-pointer text-white w-5 h-auto">
-                <title> {footerData.social.two.title} </title>
-              </SocialSVG2>
-            </a>
+            <SocialSVG2 styles=" cursor-pointer text-white w-5 h-auto">
+              <title> {footerData.social.two.title} </title>
+            </SocialSVG2>
           </Link>
 
           <Link href={footerData.social.three.href}>
-            <a>
-              <SocialSVG3 styles=" cursor-pointer text-white w-5 h-auto">
-                <title> {footerData.social.three.title} </title>
-              </SocialSVG3>
-            </a>
+            <SocialSVG3 styles=" cursor-pointer text-white w-5 h-auto">
+              <title> {footerData.social.three.title} </title>
+            </SocialSVG3>
           </Link>
 
           <Link href={footerData.social.four.href}>
-            <a>
-              <SocialSVG4 styles=" cursor-pointer text-white w-5 h-auto">
-                <title> {footerData.social.four.title} </title>
-              </SocialSVG4>
-            </a>
+            <SocialSVG4 styles=" cursor-pointer text-white w-5 h-auto">
+              <title> {footerData.social.four.title} </title>
+            </SocialSVG4>
           </Link>
         </div>
-      </section>
+      </section> */}
 
       <div
         className=" w-full text-center bg-primary

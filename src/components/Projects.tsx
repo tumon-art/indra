@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import { projectData } from "../store/data";
 
 export default function Projects() {

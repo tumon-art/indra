@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import { contact1 } from "../../public";
 import { contactData } from "../store/data";
 import Contact1 from "../store/svg/contact/Contact1";

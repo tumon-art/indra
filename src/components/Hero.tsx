@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import { hero1 } from "../../public";
 
 export default function Hero() {
