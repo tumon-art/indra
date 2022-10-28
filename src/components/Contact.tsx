@@ -6,7 +6,10 @@ import SVGcontact2 from "../store/svg/contact/SVGcontact2";
 
 export default function Contact() {
   return (
-    <div className=" font-lato mt-20 h-full w-full gap-5 sm:gap-0 grid col-span-10">
+    <div
+      id={contactData.id}
+      className=" font-lato mt-20 h-full w-full gap-5 sm:gap-0 grid col-span-10"
+    >
       {/* === SECTION 01 === */}
       <section className=" lg:col-start-1 lg:col-end-6 flex  bg-dim">
         <Image

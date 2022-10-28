@@ -11,9 +11,9 @@ export const headerData = {
   logo: logo,
   link: [
     { route: "/", name: "Home" },
-    { route: "about", name: "About" },
+    { route: "#about", name: "About" },
     { route: "clients", name: "Clients" },
-    { route: "Contact", name: "Contact" },
+    { route: "#contact", name: "Contact" },
     { route: "projects", name: "Projects" },
     { route: "safety", name: "Safety" },
   ],
@@ -64,6 +64,7 @@ export const serviceCardData = [
 ];
 
 export const aboutSectionData = {
+  id: "about",
   data: {
     logo: logo,
     text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -98,6 +99,7 @@ export const projectData = {
 };
 
 export const contactData = {
+  id: "contact",
   sec1: {
     title: `Let’s Build your 
     future today`,

@@ -8,7 +8,7 @@ import AboutSection1 from "./AboutSection1";
 
 export default function AboutSections() {
   return (
-    <div className=" mt-24 sm:mt-42">
+    <div id={aboutSectionData.id} className=" mt-24 sm:mt-42">
       <div className=" flex gap-5 sm:gap-28 justify-center">
         {["0", "1", "2"].map((each, i) => {
           return (
