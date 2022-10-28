@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Image from "next/future/image";
+import Image from "next/image";
 import { hero2 } from "../../../public";
 import { serviceCardData } from "../../store/data";
 import ServicesCards from "./ServicesCards";
