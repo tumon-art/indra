@@ -54,7 +54,7 @@ export default function Navbar() {
       </ol>
 
       {/* === SIDEBAR === */}
-      <div className="md:hidden">
+      <div className="sm:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -73,8 +73,9 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`absolute right-0 w-[70vw] transition-all duration-[2s] top-0 bg-primary 
-         h-[100vh] ${sidebar ? "translate-x-0" : "translate-x-96"}`}
+        className={` sm:hidden absolute right-0 w-[70vw] transition-transform
+         top-0 bg-primary 
+        h-[100vh] ${sidebar ? "translate-x-0" : "translate-x-96"}`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -102,16 +103,20 @@ export default function Navbar() {
             >
               {currentRoute == links.route && (
                 <div
-                  className=" absolute top-[-40px] 
+                  className="absolute top-[-40px] 
                     h-28 w-20 z-[-1]"
                 ></div>
               )}
               <Link href={links.route}>
                 <span
                   onClick={() => setCurrentRoute(links.route)}
-                  className=" text-base text-white font-semibold cursor-pointer"
+                  className=" relative text-base text-white font-semibold cursor-pointer"
                 >
                   {links.name}
+                  <div
+                    className=" top-0 absolute w-full hover:w-9 transition-all h-3
+                   bg-white my-2"
+                  ></div>
                 </span>
               </Link>
             </li>
